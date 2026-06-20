@@ -1,0 +1,145 @@
+Year,District,Annual_Rainfall_mm
+2017,Kolkata,1946.04
+2017,Howrah,1946.04
+2017,Darjeeling,3876.89
+2017,Jalpaiguri,3172.83
+2017,Cooch Behar,3618.21
+2017,Malda,1096.42
+2017,Murshidabad,1169.17
+2017,Nadia,1447.88
+2017,Hooghly,1599.05
+2017,North 24 Parganas,1677.7
+2017,South 24 Parganas,1881.83
+2017,Purba Medinipur,1625.16
+2017,Paschim Medinipur,1730.83
+2017,Bankura,1864.6
+2017,Purulia,1531.17
+2017,Jhargram,1741.92
+2018,Kolkata,1172.63
+2018,Howrah,1172.63
+2018,Darjeeling,3227.97
+2018,Jalpaiguri,3007.82
+2018,Cooch Behar,2837.61
+2018,Malda,838.02
+2018,Murshidabad,822.0
+2018,Nadia,1186.79
+2018,Hooghly,1154.51
+2018,North 24 Parganas,1285.61
+2018,South 24 Parganas,1486.94
+2018,Purba Medinipur,1413.52
+2018,Paschim Medinipur,1226.03
+2018,Bankura,1268.38
+2018,Purulia,1145.42
+2018,Jhargram,1382.88
+2019,Kolkata,1459.33
+2019,Howrah,1459.33
+2019,Darjeeling,3443.79
+2019,Jalpaiguri,2701.28
+2019,Cooch Behar,3773.11
+2019,Malda,860.27
+2019,Murshidabad,934.74
+2019,Nadia,1232.67
+2019,Hooghly,1476.45
+2019,North 24 Parganas,1735.26
+2019,South 24 Parganas,1903.29
+2019,Purba Medinipur,1800.85
+2019,Paschim Medinipur,1858.02
+2019,Bankura,1246.56
+2019,Purulia,1363.25
+2019,Jhargram,1781.81
+2020,Kolkata,1940.41
+2020,Howrah,1940.41
+2020,Darjeeling,3572.84
+2020,Jalpaiguri,4458.39
+2020,Cooch Behar,5666.85
+2020,Malda,1089.33
+2020,Murshidabad,1344.44
+2020,Nadia,1283.87
+2020,Hooghly,1632.7
+2020,North 24 Parganas,2013.0
+2020,South 24 Parganas,1772.77
+2020,Purba Medinipur,1564.92
+2020,Paschim Medinipur,1696.41
+2020,Bankura,1488.3
+2020,Purulia,1421.48
+2020,Jhargram,1597.38
+2021,Kolkata,1677.85
+2021,Howrah,1677.85
+2021,Darjeeling,3354.87
+2021,Jalpaiguri,3095.19
+2021,Cooch Behar,2874.46
+2021,Malda,967.8
+2021,Murshidabad,1195.22
+2021,Nadia,1410.58
+2021,Hooghly,1908.56
+2021,North 24 Parganas,2035.29
+2021,South 24 Parganas,2677.71
+2021,Purba Medinipur,2429.97
+2021,Paschim Medinipur,2598.43
+2021,Bankura,2036.07
+2021,Purulia,1848.63
+2021,Jhargram,2658.57
+2022,Kolkata,1069.22
+2022,Howrah,1069.22
+2022,Darjeeling,3492.88
+2022,Jalpaiguri,3178.11
+2022,Cooch Behar,4075.39
+2022,Malda,744.29
+2022,Murshidabad,765.47
+2022,Nadia,598.81
+2022,Hooghly,1045.54
+2022,North 24 Parganas,1149.88
+2022,South 24 Parganas,1445.64
+2022,Purba Medinipur,1309.76
+2022,Paschim Medinipur,1356.97
+2022,Bankura,1301.55
+2022,Purulia,1214.07
+2022,Jhargram,1326.58
+2023,Kolkata,1518.1
+2023,Howrah,1518.1
+2023,Darjeeling,3029.22
+2023,Jalpaiguri,3357.23
+2023,Cooch Behar,3343.97
+2023,Malda,1209.71
+2023,Murshidabad,879.9
+2023,Nadia,835.57
+2023,Hooghly,1239.97
+2023,North 24 Parganas,1435.82
+2023,South 24 Parganas,1652.14
+2023,Purba Medinipur,1798.92
+2023,Paschim Medinipur,1369.74
+2023,Bankura,1408.61
+2023,Purulia,1204.96
+2023,Jhargram,1417.82
+2024,Kolkata,1711.36
+2024,Howrah,1711.36
+2024,Darjeeling,3166.26
+2024,Jalpaiguri,2789.46
+2024,Cooch Behar,3415.0
+2024,Malda,1347.64
+2024,Murshidabad,1048.18
+2024,Nadia,1196.86
+2024,Hooghly,1910.5
+2024,North 24 Parganas,1875.78
+2024,South 24 Parganas,2038.51
+2024,Purba Medinipur,2131.58
+2024,Paschim Medinipur,1736.4
+2024,Bankura,1927.53
+2024,Purulia,1398.84
+2024,Jhargram,1689.34
+2025,Kolkata,1309.95
+2025,Howrah,1309.95
+2025,Darjeeling,3100.07
+2025,Jalpaiguri,3004.86
+2025,Cooch Behar,2824.34
+2025,Malda,1597.63
+2025,Murshidabad,1333.13
+2025,Nadia,1191.17
+2025,Hooghly,1769.92
+2025,North 24 Parganas,2025.16
+2025,South 24 Parganas,2075.72
+2025,Purba Medinipur,1891.46
+2025,Paschim Medinipur,1632.13
+2025,Bankura,1881.76
+2025,Purulia,1689.41
+2025,Jhargram,1619.1
