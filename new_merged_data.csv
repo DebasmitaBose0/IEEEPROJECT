@@ -1,0 +1,116 @@
+Year,Rainfall,Rainfall (in mm),Damage,Place,Category of place
+2016,Severe (A),,,Purulia,West Bengal
+2016,Severe (B),,,Purulia,West Bengal
+2016,Severe (B),,,Bankura,West Bengal
+2016,Severe (B),,,Bardhaman,West Bengal
+2016,Severe (B),,,South 24 Parganas,West Bengal
+2016,Severe (B),,,Bardhaman,West Bengal
+2016,Severe (B),,,Bardhaman,West Bengal
+2016,Severe (B),,,Paschim Medinipur,West Bengal
+2016,Severe (B),,,Bankura,West Bengal
+2016,Severe (B),,,Bankura,West Bengal
+2016,,,Damage to crops reported.,Bardhaman,West Bengal
+2016,,,i) Damage to crops reported. ii) Damage to mud houses reported.,Murshidabad,West Bengal
+2016,,,i) Damage to crops reported. ii) Damage to houses reported.,Howrah,West Bengal
+2016,,,,Malda,West Bengal
+2016,,,"Several trees, electric/telephone poles uprooted causing disruption in communication and power supply.",North 24 Parganas,West Bengal
+2016,Heavy rains & Landslides,,,Darjeeling,West Bengal
+2016,Flood,,58000 people affected.,Alipurduar,West Bengal
+2016,Flood,,58000 people affected.,Cooch Behar,West Bengal
+2016,Flood,,58000 people affected.,Darjeeling,West Bengal
+2016,Flood,,58000 people affected.,Jalpaiguri,West Bengal
+2016,Heavy rains,,Several trees/electric poles uprooted causing disruption in vehicular traffic & power supply.,Kolkata,West Bengal
+2016,Heavy rains & Flood in Mahananda river,,"i) Extensive damage to the crops reported. ii) 5,550 families in 45 villages affected.",Hooghly,West Bengal
+2016,Heavy rains & Flood in Mahananda river,,"i) Extensive damage to the crops reported. ii) 5,550 families in 45 villages affected.",Howrah,West Bengal
+2017,Heavy rainfall Jul-Aug,1599.05,"Flood (Worst affected district, agricultural damage reported)",Hooghly,West Bengal
+2017,Heavy rainfall Jul-Aug,1730.83,"Flood (Worst affected area, agricultural damage reported)",Paschim Medinipur,West Bengal
+2017,274 mm rainfall recorded,1864.6,"Flood (Silabati & Dwarkeswar overflow, agricultural damage reported)",Bankura,West Bengal
+2017,> 600 mm (20-26 Jul),,"Flood (Farmland inundated, villages flooded)",Birbhum,West Bengal
+2017,427% above normal rainfall,1946.04,Flood (DVC release worsened situation),Howrah,West Bengal
+2017,104 mm rainfall,1625.16,Flood (Excess rainfall),Purba Medinipur,West Bengal
+2017,721% above normal rainfall,1531.17,Flood (Extreme rainfall anomaly),Purulia,West Bengal
+2017,621.5 mm rainfall in July,1946.04,Urban Flooding (Second wettest July since 2008),Kolkata,West Bengal
+2017,Monsoon flood,,"Flood (60,000+ population affected, relief camps established)",Alipurduar,West Bengal
+2017,Monsoon flood,3172.83,"Flood (60,000+ population affected, Falakata-Madarihat disconnected)",Jalpaiguri,West Bengal
+2017,"Overflow of Fulhaar, Behula, Ganga, Mahananda",1096.42,"Flood (200,000+ population affected, agricultural damage reported, 4 blocks submerged)",Malda,West Bengal
+2018,"Overflow of Ganga, Mahananda and tributaries",838.02,"Flood, Crop Damage, River Erosion (Low-lying villages and agricultural land affected)",Malda,West Bengal
+2018,Heavy monsoon rainfall and river rise,822.0,"Flood, Crop Damage (Flood-prone blocks affected)",Murshidabad,West Bengal
+2018,Himalayan river swelling,3007.82,Flood (Riverbank inundation in vulnerable areas),Jalpaiguri,West Bengal
+2018,Monsoon rainfall and river overflow,,Flood (Localized flooding),Alipurduar,West Bengal
+2018,River flooding,2837.61,"Flood, Crop Damage (Agricultural areas affected)",Cooch Behar,West Bengal
+2018,Overflow of local rivers,1186.79,"Flood, Waterlogging (Rural flooding reported)",Nadia,West Bengal
+2018,High river levels in Bhagirathi-Hooghly basin,1154.51,"Flood, Waterlogging (Low-lying areas vulnerable)",Hooghly,West Bengal
+2018,Heavy rainfall and drainage congestion,1172.63,"Urban Flooding, Waterlogging (Localized inundation)",Howrah,West Bengal
+2018,Monsoon rainfall,1413.52,"Waterlogging, Crop Damage (Agricultural impacts in low-lying regions)",Purba Medinipur,West Bengal
+2018,River overflow and rainfall,1226.03,"Flood, Crop Damage (Rural flooding in vulnerable blocks)",Paschim Medinipur,West Bengal
+2018,Dwarkeswar basin rise,1268.38,"Flood Risk, Crop Damage (River levels crossed warning stages)",Bankura,West Bengal
+2018,Dwaraka and Mayurakshi basin rise,,"Flood Risk, Crop Damage (Low-lying agricultural land affected)",Birbhum,West Bengal
+2019,Cyclone Bulbul,1903.29,"Crop Damage, Housing Damage, Flooding (Severe damage to agriculture and houses)",South 24 Parganas,West Bengal
+2019,Cyclone Bulbul,1735.26,"Crop Damage, Flooding (Low-lying areas inundated)",North 24 Parganas,West Bengal
+2019,Cyclone Bulbul,1459.33,"Urban Flooding, Infrastructure Damage (Fallen trees, road blockage, power disruption)",Kolkata,West Bengal
+2019,Cyclone Bulbul,1800.85,"Coastal Flooding, Crop Damage (Agricultural fields damaged)",Purba Medinipur,West Bengal
+2019,Heavy Rainfall,1858.02,"Flood, Crop Damage (Local flooding reported)",Paschim Medinipur,West Bengal
+2019,Monsoon Flood,860.27,"Flood, River Erosion, Crop Damage (Flood-prone blocks affected)",Malda,West Bengal
+2019,Monsoon Flood,934.74,"Flood, River Erosion (Agricultural and riverside areas affected)",Murshidabad,West Bengal
+2019,Monsoon Flood,2701.28,Flood (River overflow in vulnerable regions),Jalpaiguri,West Bengal
+2019,Monsoon Flood,,Flood (Low-lying areas inundated),Alipurduar,West Bengal
+2019,Monsoon Flood,3773.11,"Flood, Crop Damage (Agricultural losses reported)",Cooch Behar,West Bengal
+2020,Cyclone Amphan,1772.77,"Coastal Flooding, Crop Damage, Housing Damage (About 1 million homes damaged; embankment breaches flooded villages and cropland.)",South 24 Parganas,West Bengal
+2020,Cyclone Amphan,2013.0,"Flooding, Housing Damage (Around 5,500 homes damaged; widespread inundation.)",North 24 Parganas,West Bengal
+2020,Cyclone Amphan,1940.41,"Urban Flooding, Infrastructure Damage (220-240 mm rainfall; ~10,000 trees uprooted; roads waterlogged; power infrastructure damaged.)",Kolkata,West Bengal
+2020,Cyclone Amphan,1940.41,"Flooding, Infrastructure Damage (Heavy rainfall and wind damage reported.)",Howrah,West Bengal
+2020,Cyclone Amphan,1632.7,"Housing Damage, Crop Damage (Thousands of mud houses damaged.)",Hooghly,West Bengal
+2020,Cyclone Amphan,1564.92,"Coastal Flooding, Crop Damage (Severe agricultural and coastal impacts.)",Purba Medinipur,West Bengal
+2020,Cyclone Amphan,1283.87,"Flooding, Infrastructure Damage (Severe damage reported after heavy rainfall and winds.)",Nadia,West Bengal
+2020,Cyclone Amphan,1772.77,"Flooding, Salinity Intrusion, Crop Damage (Embankments breached, seawater inundation affected villages and farmland.)",South 24 Parganas,West Bengal
+2021,Cyclone Yaas,2677.71,"Coastal Flooding, Crop Damage, Housing Damage (Embankment breaches, seawater intrusion, villages inundated)",South 24 Parganas,West Bengal
+2021,Cyclone Yaas,2035.29,"Flooding, Housing Damage (Flooded villages, damaged homes, displaced population)",North 24 Parganas,West Bengal
+2021,Cyclone Yaas,2429.97,"Coastal Flooding, Infrastructure Damage (Coastal inundation and embankment damage)",Purba Medinipur,West Bengal
+2021,Heavy Rain + Cyclone Effects,1677.85,Urban Flooding (Waterlogging and riverbank flooding in low-lying areas),Kolkata,West Bengal
+2021,Heavy Rain + High Tide,1677.85,Flooding (Flooding near Hooghly riverbanks),Howrah,West Bengal
+2021,Tornado + Heavy Rain,1908.56,Housing Damage (Houses damaged before Yaas landfall),Hooghly,West Bengal
+2021,Cyclone Yaas,2677.71,"Flooding, Salinity Intrusion, Crop Damage (Large-scale agricultural and livelihood losses)",South 24 Parganas,West Bengal
+2022,"Flooding from Ganga, Mahananda and Fulhar river systems",744.29,"Flood, Crop Damage, River Erosion (Flooding from Ganga, Mahananda and Fulhar river systems affected low-lying agricultural areas)",Malda,West Bengal
+2022,River rise and heavy monsoon rainfall,765.47,"Flood, River Erosion, Crop Damage (Flood-prone riverbank regions experienced inundation and erosion)",Murshidabad,West Bengal
+2022,Heavy monsoon rainfall,3178.11,Flood (Heavy monsoon rainfall caused river overflow and localized flooding),Jalpaiguri,West Bengal
+2022,Swollen Himalayan rivers,,Flood (Flooding reported in low-lying areas due to swollen Himalayan rivers),Alipurduar,West Bengal
+2022,River flooding,4075.39,"Flood, Crop Damage (Agricultural land affected by river flooding)",Cooch Behar,West Bengal
+2022,Heavy rainfall,598.81,"Flood, Waterlogging (Heavy rainfall affected low-lying settlements)",Nadia,West Bengal
+2022,Heavy rainfall,1045.54,"Flood, Waterlogging (Flood-prone blocks experienced inundation)",Hooghly,West Bengal
+2022,Heavy rainfall and drainage congestion,1069.22,Urban Waterlogging (Heavy rainfall caused localized flooding and drainage congestion),Howrah,West Bengal
+2022,River overflow and rainfall,1356.97,"Flood, Crop Damage (River basin flooding affected rural areas)",Paschim Medinipur,West Bengal
+2022,Heavy rainfall,1309.76,"Waterlogging, Crop Damage (Heavy rainfall affected agricultural land and low-lying villages)",Purba Medinipur,West Bengal
+2022,Rising river levels in Dwarkeswar basin,1301.55,"Flood Risk, Crop Damage (Rising river levels in Dwarkeswar basin affected surrounding regions)",Bankura,West Bengal
+2022,Heavy rainfall in Dwaraka-Mayurakshi basin,,"Flood Risk, Crop Damage (Dwaraka-Mayurakshi basin areas affected by heavy rainfall)",Birbhum,West Bengal
+2023,Heavy Monsoon Rainfall & Landslides,3029.22,"Landslide, Road Damage (Multiple landslides disrupted transport and hill connectivity)",Darjeeling,West Bengal
+2023,Heavy Monsoon Rainfall & Landslides,,Landslide (Roads blocked and settlements affected),Kalimpong,West Bengal
+2023,Heavy Monsoon Rainfall,3357.23,Flood (River overflow and inundation in low-lying areas),Jalpaiguri,West Bengal
+2023,Heavy Monsoon Rainfall,,Flood (Flooding in river basin regions),Alipurduar,West Bengal
+2023,Heavy Monsoon Rainfall,3343.97,"Flood, Crop Damage (Agricultural land affected)",Cooch Behar,West Bengal
+2023,Heavy Monsoon Rainfall,1209.71,"Flood, River Erosion (Ganga basin flooding and erosion)",Malda,West Bengal
+2023,Heavy Monsoon Rainfall,879.9,"Flood, River Erosion (Riverbank erosion and agricultural losses)",Murshidabad,West Bengal
+2024,Monsoon Flooding,1736.4,"Flood, Crop Damage, Infrastructure Damage, Housing Damage (Extreme severity)",Paschim Medinipur,West Bengal
+2024,Monsoon Flooding,1711.36,"Flood, Infrastructure Damage, Housing Damage (High severity)",Howrah,West Bengal
+2024,Monsoon Flooding,1910.5,"Flood, Crop Damage, Infrastructure Damage, Housing Damage (High severity)",Hooghly,West Bengal
+2024,Monsoon Flooding,2131.58,"Flood, Crop Damage, Infrastructure Damage (High severity)",Purba Medinipur,West Bengal
+2024,Monsoon Flooding,1927.53,"Flood, Crop Damage (Medium severity)",Bankura,West Bengal
+2024,Monsoon Flooding,1398.84,"Flood, Crop Damage (Medium severity)",Purulia,West Bengal
+2024,Monsoon Flooding,,"Flood, Crop Damage (Medium severity)",Birbhum,West Bengal
+2024,Monsoon Flooding,1196.86,Flood (Medium severity),Nadia,West Bengal
+2024,Monsoon Flooding,1875.78,Flood (Medium severity),North 24 Parganas,West Bengal
+2024,Monsoon Flooding,2038.51,Flood (Medium severity),South 24 Parganas,West Bengal
+2025,Heavy Rainfall,1632.13,"Flood, Crop Damage (Villages inundated, agricultural land affected)",Paschim Medinipur,West Bengal
+2025,Heavy Rainfall,1769.92,"Flood, Crop Damage (Floodwater entered low-lying villages)",Hooghly,West Bengal
+2025,Heavy Rainfall,1309.95,"Flood, Waterlogging (Localized flooding in vulnerable areas)",Howrah,West Bengal
+2025,Intense Rainfall Episodes,1309.95,Urban Flooding (Waterlogging after intense rainfall episodes),Kolkata,West Bengal
+2025,Continuous heavy rainfall,3100.07,"Landslide, Road Damage (Major landslides disrupted transport routes)",Darjeeling,West Bengal
+2025,Continuous heavy rainfall,,Landslide (Hill roads blocked and settlements affected),Kalimpong,West Bengal
+2025,Continuous heavy rainfall,3004.86,Flood (River overflow and inundation),Jalpaiguri,West Bengal
+2025,Continuous heavy rainfall,,Flood (Low-lying areas flooded),Alipurduar,West Bengal
+2025,Continuous heavy rainfall,2824.34,"Flood, Crop Damage (Agricultural land affected)",Cooch Behar,West Bengal
+2025,Continuous heavy rainfall,3100.07,"Flood, Waterlogging (Transport and drainage disruption)",Darjeeling,West Bengal
+2025,Extreme Rainfall Event,1309.95,Urban Flooding (Severe waterlogging),Kolkata,West Bengal
+2025,Extreme Rainfall Event,1309.95,Urban Flooding (Roads submerged),Kolkata,West Bengal
+2025,Extreme Rainfall Event,1309.95,Urban Flooding (Residential areas affected),Kolkata,West Bengal
+2025,Extreme Rainfall Event,1309.95,Urban Flooding (Transport disruption),Kolkata,West Bengal
+2025,Extreme Rainfall Event,1309.95,Infrastructure Damage (Traffic and power disruption),Kolkata,West Bengal

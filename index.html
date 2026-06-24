@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Bengal Climate & Rainfall Analytics</title>
+    <meta name="description" content="Premium interactive dashboard analyzing rainfall trends and extreme climate events in West Bengal (2016-2026).">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-icon">
+                    <i class="fa-solid fa-cloud-showers-water"></i>
+                </div>
+                <div class="brand-text">
+                    <h1>BengalClimate</h1>
+                    <span>Analytics Portal</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <a href="#" class="menu-item active" data-tab="overview">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Overview</span>
+                </a>
+                <a href="#" class="menu-item" data-tab="trends">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Rainfall Trends</span>
+                </a>
+                <a href="#" class="menu-item" data-tab="events">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span>Climate Events</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-filters">
+                <div class="filter-header">
+                    <i class="fa-solid fa-sliders"></i>
+                    <span>Global Controls</span>
+                </div>
+                
+                <div class="control-group">
+                    <label for="districtSelect"><i class="fa-solid fa-location-dot"></i> Primary District</label>
+                    <select id="districtSelect" class="styled-select">
+                        <!-- Populated by JS -->
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="yearSelect"><i class="fa-solid fa-calendar-days"></i> Analysis Year</label>
+                    <select id="yearSelect" class="styled-select">
+                        <!-- Populated by JS -->
+                    </select>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <p>IEEE PROJECT v1.0</p>
+                <span>Data: 2016 - 2026</span>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="content-header">
+                <div class="header-title">
+                    <h2>West Bengal Climate Dashboard</h2>
+                    <p>Interactive analysis of annual precipitation and extreme weather patterns.</p>
+                </div>
+                <div class="header-actions">
+                    <button class="action-btn" id="themeToggle" title="Toggle Dark/Light Mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <div class="user-profile">
+                        <span class="user-avatar"><i class="fa-solid fa-user-shield"></i></span>
+                        <div class="user-info">
+                            <span class="user-name">Researcher</span>
+                            <span class="user-role">Administrator</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Overview Tab -->
+            <div id="overview-tab" class="tab-content active">
+                <!-- Metrics Grid -->
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon rainfall-color">
+                            <i class="fa-solid fa-droplet"></i>
+                        </div>
+                        <div class="metric-details">
+                            <h3>Avg Annual Rainfall</h3>
+                            <div class="metric-value" id="metric-avg-rainfall">-- mm</div>
+                            <p class="metric-sub" id="metric-avg-rainfall-sub">District-wide average</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon events-color">
+                            <i class="fa-solid fa-cloud-bolt"></i>
+                        </div>
+                        <div class="metric-details">
+                            <h3>Extreme Events</h3>
+                            <div class="metric-value" id="metric-total-events">--</div>
+                            <p class="metric-sub" id="metric-total-events-sub">Documented (2016-2026)</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon peak-color">
+                            <i class="fa-solid fa-cloud-showers-heavy"></i>
+                        </div>
+                        <div class="metric-details">
+                            <h3>Wettest District</h3>
+                            <div class="metric-value" id="metric-wettest-district">--</div>
+                            <p class="metric-sub" id="metric-wettest-val">-- mm</p>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon risk-color">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                        </div>
+                        <div class="metric-details">
+                            <h3>Most Impacted</h3>
+                            <div class="metric-value" id="metric-impacted-place">--</div>
+                            <p class="metric-sub">Frequent weather anomalies</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Section -->
+                <div class="charts-grid">
+                    <div class="chart-card large-chart">
+                        <div class="chart-header">
+                            <h3>Rainfall Trend vs Climate Anomalies</h3>
+                            <div class="chart-actions">
+                                <span class="chart-badge text-glow" id="trend-badge">District View</span>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="rainfallTrendChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Weather Event Types</h3>
+                            <span class="chart-badge">Proportions</span>
+                        </div>
+                        <div class="chart-container doughnut-wrapper">
+                            <canvas id="eventDistributionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- District Distribution & Comparison Chart -->
+                <div class="full-width-chart-card">
+                    <div class="chart-header">
+                        <h3>District Precipitation Comparison</h3>
+                        <div class="chart-actions">
+                            <span class="chart-badge" id="comparison-badge">Selected Year</span>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="districtComparisonChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Climate Events Explorer Table Section -->
+                <div class="table-section-card">
+                    <div class="table-header">
+                        <div class="table-title">
+                            <h3>Extreme Weather Events Log</h3>
+                            <p>Interactive records of storm damage, floods, and warnings</p>
+                        </div>
+                        <div class="table-filters">
+                            <div class="search-box">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" id="eventSearch" placeholder="Search by district, place, damage...">
+                            </div>
+                            <select id="eventTypeFilter" class="styled-select-compact">
+                                <option value="all">All Event Types</option>
+                                <option value="flood">Floods & Heavy Rain</option>
+                                <option value="cyclone">Cyclones & Storms</option>
+                                <option value="heatwave">Heat & Cold Waves</option>
+                                <option value="landslide">Landslides</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="table-viewport">
+                        <table class="styled-table" id="eventsTable">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Place / District</th>
+                                    <th>Event Category</th>
+                                    <th>Damage & Impacts Reported</th>
+                                </tr>
+                            </thead>
+                            <tbody id="eventsTableBody">
+                                <!-- Populated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-footer">
+                        <div class="table-info" id="tableInfoCount">Showing 0 of 0 records</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Load data first, then app script -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
